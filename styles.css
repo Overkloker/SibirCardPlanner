@@ -1,0 +1,120 @@
+.ftd_content_wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.b-planning-toggle-wrapper {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.b-planning-toggle-wrapper .e-btn {
+  font-size: 35px;
+  text-decoration: none;
+  color: #58595b;
+  display: inline-block;
+  line-height: 0;
+}
+.b-planning-toggle-wrapper .e-btn.active {
+  color: rgba(0, 124, 194, 0.86);
+}
+.b-planning-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+.b-planning-item {
+  min-height: 100px;
+  width: 232px;
+  display: block;
+  border: 1px solid #fafafa;
+  outline: 1px solid #edeeef;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.b-planning-item a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+.b-planning-item:nth-child(4n) {
+  margin-right: 0;
+}
+.b-planning-item:hover {
+  border-color: #00b04c;
+  outline-color: #00b04c;
+}
+.b-planning-item-top {
+  display: block;
+  position: relative;
+}
+.b-planning-item-top .e-img {
+  max-width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+.b-icon-wrapper {
+  display: block;
+  margin-bottom: 15px;
+}
+.b-icon-wrapper:before,
+.b-icon-wrapper:after {
+  content: " ";
+  display: table;
+}
+.b-icon-wrapper:after {
+  clear: both;
+}
+.b-icon {
+  display: block;
+  text-align: center;
+  width: 80px;
+  color: #424143;
+}
+.b-icon i {
+  font-size: 35px;
+}
+.b-icon .e-text {
+  display: block;
+  font-size: 14px;
+}
+.b-planning-item-bottom {
+  display: block;
+  text-align: center;
+}
+.b-planning-item-bottom .e-name {
+  display: block;
+  color: #424143;
+  text-align: left;
+  margin-top: 10px;
+}
+.b-planning-item-bottom .e-price {
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgba(0, 124, 194, 0.86);
+  padding: 0 5px;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 10px 0;
+}
+.b-planning-item-bottom .e-deadline {
+  font-family: "Freeset-Light", Arial, sans-serif;
+  color: #828282;
+  font-size: 11px;
+  margin-top: 10px;
+  display: block;
+}
+.b-floor-wrapper {
+  display: block;
+}
+.b-floor-wrapper .e-text {
+  display: block;
+}
+.b-floor-wrapper .e-floor {
+  display: block;
+  font-weight: bold;
+}

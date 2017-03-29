@@ -1,0 +1,147 @@
+@black: #424143;
+.clearfix() {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.ftd_content_wrapper {
+	max-width: 960px;
+	margin:    0 auto;
+}
+
+.b-planning-toggle-wrapper {
+	text-align:    right;
+	margin-bottom: 20px;
+
+	.e-btn {
+		font-size:       35px;
+		text-decoration: none;
+		color:           #58595b;
+		display:         inline-block;
+		line-height:     0;
+		&.active {
+			color: rgba(0, 124, 194, .86);
+		}
+	}
+}
+
+.b-planning-wrapper {
+
+}
+
+.b-planning-list {
+	padding:    0;
+	margin:     0;
+	list-style: none;
+	display:    flex;
+	flex-flow:  row wrap;
+}
+
+.b-planning-item {
+	min-height:    100px;
+	width:         232px;
+	display:       block;
+	//border:       1px solid #fa0054;
+	border:        1px solid #fafafa;
+	outline:       1px solid #edeeef;
+	float:         left;
+	box-sizing:    border-box;
+	margin-right:  10px;
+	margin-bottom: 10px;
+	a {
+		display:         block;
+		text-decoration: none;
+		padding:         10px;
+		min-height:      100%;
+		box-sizing:      border-box;
+	}
+	&:nth-child(4n) {
+		margin-right: 0;
+	}
+
+	&:hover {
+		border-color:  #00b04c;
+		outline-color: #00b04c;
+	}
+}
+
+.b-planning-item-top {
+	display:  block;
+	position: relative;
+	.e-img {
+		max-width: 120px;
+		margin:    0 auto;
+		display:   block;
+	}
+}
+
+.b-icon-wrapper {
+	display:       block;
+	margin-bottom: 15px;
+	.clearfix();
+}
+
+.b-icon {
+	display:    block;
+	//float: left;
+	//position:   absolute;
+	//top:        0;
+	//left:       0;
+	text-align: center;
+	width:      80px;
+	color:      @black;
+	i {
+		font-size: 35px;
+	}
+	.e-text {
+		display:   block;
+		font-size: 14px;
+	}
+}
+
+.b-planning-item-bottom {
+	display:    block;
+	text-align: center;
+	.e-name {
+		display:    block;
+		//margin-left: 50px;
+		//font: 400 11pt helveticaltstd_roman;
+		color:      #424143;
+		text-align: left;
+		margin-top: 10px;
+	}
+	.e-price {
+		display:          inline-block;
+		color:            #ffffff;
+		background-color: rgba(0, 124, 194, .86);
+		padding:          0 5px;
+		font-size:        20px;
+		line-height:      25px;
+		margin:           10px 0;
+	}
+
+	.e-deadline {
+		font-family: "Freeset-Light", Arial, sans-serif;
+		color:       #828282;
+		font-size:   11px;
+		margin-top:  10px;
+		display:     block;
+	}
+}
+
+.b-floor-wrapper {
+	display: block;
+	.e-text {
+		display: block;
+	}
+	.e-floor {
+		display:     block;
+		font-weight: bold;
+	}
+}
